@@ -1,0 +1,5 @@
+add tensor boad callback: 
+    tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir="./logs")
+    then add: callback = [tensorboard_callback] in model.fit
+from cmd, run: tensorboard --logdir='logs/' in the same dir as the ipynb file
+open the port
